@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Foodybite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_open">Mở Navigation</string>
+    <string name="nav_close">Đóng Navigation</string>
+    <!--    menu activity admin-->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_ql_nhandon">Nhận Đơn</string>
+    <string name="menu_ql_quanly">Quản Lý</string>
+    <string name="menu_ql_taikhoanKH">Tài Khoản Khách Hành</string>
+    <string name="menu_ql_thongke">Thống Kê</string>
+    <string name="menu_ql_thoat">Đăng Xuất</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_ql_quanly_ban">Bàn</string>
+    <string name="menu_ql_quanly_menu">Menu</string>
+    <string name="action_them">Thêm</string>
+    <!--    menu activity admin-->
+
+    <!-- LoginActivity -->
+    <string name="login_Foodybite">Foodybite</string>
+    <string name="login_activity_taikhoan">Tài Khoản</string>
+    <string name="login_activity_password">Password</string>
+    <string name="login_activity_qmk">Quên Mật Khẩu ?</string>
+    <string name="login_activity_login">Đăng Nhập</string>
+    <string name="login_activity_signup">Đăng Ký</string>
+    <!-- LoginActivity -->
+    <!--ChangePassword -->
+    <string name="change_password_tenTK">Tên Tài Khoản</string>
+    <string name="change_password_name">Họ tên</string>
+    <string name="change_password_sdt">Số Điện Thoại</string>
+    <string name="change_password_namsinh">Năm Sinh</string>
+    <string name="change_password_changepassword">Lấy Lại</string>
+
+    <!--ChangePassword -->
+    <!--SignUp -->
+    <string name="signup_activity_user">Tên Tài Khoản</string>
+    <string name="signup_activity_pass">Nhập Mật Khẩu</string>
+    <string name="signup_activity_rePass">Nhập Lại Mật Khẩu</string>
+    <string name="signup_activity_name">Họ Tên</string>
+    <string name="signup_activity_year">Năm Sinh</string>
+    <string name="signup_activity_phone">Số Điện Thoại</string>
+    <string name="signup_activity_id_manager">Mã Quản Lý</string>
+    <string name="signup_activity_SignUp">Đăng Ký</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="menu_user_menu">Menu</string>
+    <string name="menu_user_tk">Tài Khoản</string>
+    <string name="menu_user_doimk">Đổi Mật Khẩu</string>
+    <string name="menu_user_ls">Lịch Sử</string>
+    <string name="menu_user_gt">Giới Thiệu</string>
+    <string name="menu_user_tg">Liên Hệ</string>
+    <string name="trogiup_foodybile">Foodybite</string>
+    <!--SignUp -->
+
+    <!--fragment-gioi-thieu-->
+    <string name="fragment_gioi_thieu_Loi_dau">Giới thiệu chung</string>
+    <string name="fragment_gioi_thieu_Loi_dau_gioi_thieu">"Nhà Hàng Hải Sản Hoàng Quyên là nhà hàng sở hữu một không gian ẩm thực tuyệt vời với sự kết hợp tinh tế giữa văn hóa ẩm thực Á Đông và vẻ đẹp kiến trúc phương Tây. Đến với Nhà Hàng Hoàng Quyên, khách hàng có thể thưởng thức những món ăn độc đáo, sáng tạo và mang đậm dấu ấn đặc trưng. Trong đó, ấn tượng và nổi bật nhất với thiết kể ẩm thực chủ đạo gồm những món ăn đặc sắc chế biến từ hải sản tươi sống kết hợp với nguyên liệu truyền thống."</string>
+    <string name="fragment_gioi_thieu_Tam_nhin">Tầm nhìn</string>
+    <string name="fragment_gioi_thieu_Tam_nhin_1">"Với khát vọng và nỗ lực, Tân Trường Thịnh nói chung cũng như Nhà Hàng Hoàng Quyên nói riêng sẽ không ngừng cải tiến, hoàn thiện chất lượng dịch vụ, hướng đến khẳng định uy tín và vị thế vững vàng trên thị trường kinh doanh ẩm thực Bình Dương."</string>
+    <string name="fragment_gioi_thieu_Su_menh">Sứ mệnh</string>
+    <string name="fragment_gioi_thieu_Su_menh_1">“Ẩm thực và hơn thế nữa!”</string>
+    <string name="fragment_gioi_thieu_Su_menh_2">“Ẩm thực và hơn thế nữa!” là câu slogan thể hiện sứ mệnh, phương châm, hướng đi mà Nhà Hàng Hoàng Quyên đã lựa chọn. Sứ mệnh của Nhà Hàng Hoàng Quyên là mang đến cho khách hàng những trải nghiệm tuyệt vời và đúng nghĩa nhất về ẩm thực. Ở đó, ẩm thực không chỉ đơn giản là ngon miệng, mà phải đảm bảo an toàn vệ sinh và dinh dưỡng.</string>
+    <string name="fragment_gioi_thieu_Su_menh_3">Sức khỏe của khách hàng luôn là một trong các vấn đề hàng đầu được Nhà Hàng Hoàng Quyên quan tâm và chú trọng. Những món ăn của Nhà Hàng Hoàng Quyên được đầu tư nghiên cứu và chế biến theo hướng vận dụng các bài thuốc có giúp tăng cường sức khỏe, ngăn ngừa ung thư, làm chậm tiến trình lão hóa, hỗ trợ điều trị các bệnh về xương khớp... Món ăn của Nhà Hàng hứa hẹn sẽ đem đến sự ngon miệng và hài lòng nhất cho khách hàng.</string>
+    <string name="fragment_gioi_thieu_Tam_nhin_2">Đồng thời trong tương lai đẩy mạnh, phát triển chuỗi nhà hàng chuyên về hải sản mang thương hiệu Hoàng Quyên và một số thương hiệu về nhà hàng - khách sạn khác trực thuộc Tân Trường Thịnh.</string>
+    <string name="fragment_gioi_thieu_Gia_tri_cot_loi">Giá trị cốt lõi</string>
+    <string name="fragment_gioi_thieu_Gia_tri_cot_loi_1">An toàn: Trong ngành kinh doanh ẩm thực, an toàn về sức khỏe được xem là yếu tố quan trọng nhất. Tuy nhiên, hiện nay rất nhiều cơ sở kinh doanh vì lợi nhuận mà lại bỏ quên yếu tố này. Với tâm niệmmong muốn bảo vệ sức khỏe của khách hàng, Nhà Hàng Hoàng Quyên luôn luôn đề cao vấn đề an toàn thực phẩm ở mọi công đoạn từ lựa chọn và bảo quản nguyên liệu, quá trình chế biến món ăn đến khi thành phẩm.</string>
+    <string name="fragment_gioi_thieu_Gia_tri_cot_loi_2">Đặc biệt nhất, Nhà Hàng Hoàng Quyên rất chặt chẽ trong khâu nhập nguyên liệu. Nhà Hàng không chỉ nhập những loại rau đảm bảo tiêu chuẩn rau sạch Viet Gap 100%, hải sản đảm bảo tươi sống và có nguồn gốc rõ ràng, mà với hải sản nhập cấp đông luôn được lấy mẫu kiểm định trước khi nhập vào.</string>
+    <string name="fragment_gioi_thieu_Gia_tri_cot_loi_3">Chất lượng: Nhà Hàng Hoàng Quyên luôn không ngừng tìm tòi, học hỏi, cập nhật để hoàn thiện và nâng cao chất lượng từng món ăn, nâng cao chất lượng và sự khoa học trong thiết kế thực đơn bữa ăn. Đồng thời Hoàng Quyên còn chú trọng đến việc nâng cao chất lượng các loại hình dịch vụ Nhà Hàng mà cung cấp.</string>
+    <string name="fragment_gioi_thieu_Gia_tri_cot_loi_4">Chuyên nghiệp: Sự chuyên nghiệp là một trong những giá trị Nhà Hàng Hoàng Quyên tự tin và tự hào nhất. Hoàng Quyên sở hữu một đội ngũ nhân viên giàu kinh nghiệm và đã qua đào tạo chuyên sâu, bao gồm các chuyên gia tư vấn về ẩm thực, đầu bếp, nhân viên phục vụ… Tập thể nhân viên Hoàng Quyên luôn sẵn sàng cống hiến hết mình để có thể cung cấp những dịch vụ tốt nhất, chuyên nghiệp nhất đến khách hàng.</string>
+    <!--fragment-gioi-thieu-->
+</resources>

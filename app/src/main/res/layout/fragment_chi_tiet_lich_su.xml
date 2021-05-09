@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/a7"
+    tools:context=".user.fragment.ChiTietLichSuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/custom_buttor">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#A9000000"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="fill"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rclDSChiTietlichSu"
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#1DFDFDFD"
+
+                android:layout_height="600dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvChiTietTongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f30"
+                android:textSize="25dp" />
+
+    </LinearLayout>
+</LinearLayout>

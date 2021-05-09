@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095869351083",
+    "project_id": "appfoodybite",
+    "storage_bucket": "appfoodybite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095869351083:android:41f8c8c275bb43a3c723ee",
+        "android_client_info": {
+          "package_name": "com.example.appnhahang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095869351083-olmn85crjbbcob4krur6epsehgiokiqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDis0uyyjTnxrmYh78xO9E58phKt75WvTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095869351083-olmn85crjbbcob4krur6epsehgiokiqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

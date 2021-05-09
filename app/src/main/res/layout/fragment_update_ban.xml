@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/a2"
+    tools:context=".manage.table.UpdateBanFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_buttor"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvmaBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgquanLyBan"
+
+                android:layout_width="156dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imgcamera"
+                android:layout_width="57dp"
+                android:layout_height="48dp"
+                android:layout_margin="50dp"
+                android:src="@android:drawable/ic_menu_camera" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rabdat"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="Đặt"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rabtrong"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="Trống"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rabdangXuLy"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="Đang xử lý"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edchiTiet"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#EAE6E6"
+          errorEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chi tiết"
+                android:textColor="#ffffff" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnsua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+
+            android:text="Lưu" />
+    </LinearLayout>
+
+</FrameLayout>

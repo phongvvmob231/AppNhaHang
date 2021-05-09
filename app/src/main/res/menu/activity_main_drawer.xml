@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navigation_nhandon"
+            android:icon="@drawable/don_hang"
+            android:title="@string/menu_ql_nhandon"/>
+        <item android:title="@string/menu_ql_quanly">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item android:id="@+id/navigation_ds_ban"
+                        android:icon="@drawable/ban"
+                        android:title="@string/menu_ql_quanly_ban"/>
+                    <item android:id="@+id/navigation_ds_menu"
+                        android:icon="@drawable/menu"
+                        android:title="@string/menu_ql_quanly_menu"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/navigation_taikhoan"
+            android:icon="@drawable/tk"
+            android:title="@string/menu_ql_taikhoanKH"/>
+        <item android:id="@+id/navigation_thongke"
+            android:icon="@drawable/thongke"
+            android:title="@string/menu_ql_thongke"/>
+        <item android:id="@+id/navigation_dangxuatql"
+            android:icon="@drawable/icon_logout"
+            android:title="@string/menu_ql_thoat"/>
+    </group>
+</menu>
